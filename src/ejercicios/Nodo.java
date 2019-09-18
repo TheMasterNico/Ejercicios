@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Ejercicios;
+package ejercicios;
 
 /**
  *
  * @author Estudiante
  */
 public class Nodo<type> {
-    private type dato;
-    private Nodo<type> next;
+    public type dato;
+    public Nodo<type> next;
     
     public Nodo(type dato)
     {

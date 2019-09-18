@@ -101,7 +101,7 @@ public class ListaDoble<type> {
             return;
         
         //Si es el preimero
-        if(this.head == this.tail) // Lo encontramos, es el primero
+        if(this.head.key == key) // Lo encontramos, es el primero
         {
             this.head = this.tail = null;
         }

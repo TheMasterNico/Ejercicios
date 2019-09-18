@@ -42,7 +42,7 @@ public class Ejercicios {
         dlList.PushBack(1);
         dlList.PushBack(2);
         dlList.PushBack(3);
-        dlList.PushBack(4);
+        dlList.PushBack(4); 
         dlList.PushBack(5);
         
         System.out.println("\n\nImprimiendo");
@@ -62,6 +62,8 @@ public class Ejercicios {
             dlList.AddBefore(dn, 88);
             
             System.out.println("\n\nListando de nuevo la lista...");
+            dlList.DisplayList();
+           
             
         }
         else
