@@ -8,6 +8,7 @@ package ejercicios;
 /**
  *
  * @author Estudiante
+ * @param <type>
  */
 public class ListaDoble<type> {
     DobleNodo<type> head = null;

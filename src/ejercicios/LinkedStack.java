@@ -26,7 +26,7 @@ public class LinkedStack<T> implements Stack<T> {
 
     @Override
     public void push(T key) {
-        Nodo<T> nodo = new Nodo<T>(key, this.top);
+        Nodo<T> nodo = new Nodo<>(key, this.top);
         
         this.top = nodo;//sube el top al nuevo
         size++;
